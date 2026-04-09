@@ -9,8 +9,7 @@ body {
     color: #333;
 
     background: 
-        url("../Imagenes/logo.jpeg") center repeat,
-        #61be86;
+        #effbf5;
 
     background-size: 40%; /* tamaño del logo */
     background-attachment: fixed; /* efecto pro */
