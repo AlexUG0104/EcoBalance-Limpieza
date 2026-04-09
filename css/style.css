@@ -6,8 +6,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #E9F8EF;
     color: #333;
+
+    background: 
+        url("../Imagenes/logo.jpeg") center no-repeat,
+        #E9F8EF;
+
+    background-size: 1500px; /* tamaño del logo */
+    background-attachment: fixed; /* efecto pro */
+    background-position:center; /* posición del logo */;
 }
 
 /* CONTENEDOR */
@@ -224,4 +231,62 @@ body {
     .caja {
         margin-bottom: 20px;
     }
+}
+/* DISTRIBUCIÓN */
+/* DISTRIBUCIÓN PRO */
+.distribucion-box {
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* gráfico */
+.grafico-circular {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background: conic-gradient(
+        #1F8F4E 0% 25%,
+        #2F8DE4 25% 50%,
+        #5F6B66 50% 75%,
+        #A8D5BA 75% 100%
+    );
+}
+
+/* leyenda */
+.leyenda-distribucion {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.item-leyenda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* puntitos */
+.color-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.verde { background: #1F8F4E; }
+.azul { background: #2F8DE4; }
+.gris { background: #5F6B66; }
+.verde-claro { background: #A8D5BA; }
+.tipo-empresa-box {
+    max-width: 700px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.tipo-empresa-box p {
+    margin-top: 10px;
+    line-height: 1.6;
 }
