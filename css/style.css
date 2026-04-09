@@ -10,10 +10,6 @@ body {
 
     background: 
         #effbf5;
-
-    background-size: 40%; /* tamaño del logo */
-    background-attachment: fixed; /* efecto pro */
-    background-position:center; /* posición del logo */;
 }
 
 /* CONTENEDOR */
